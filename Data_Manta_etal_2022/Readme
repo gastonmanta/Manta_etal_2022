@@ -1,0 +1,26 @@
+Data related to the article:
+Shelf Water Export at the Brazil-Malvinas Confluence Evidenced From Combined In-situ and Satellite Observations
+Gaston Manta, Sabrina Speich, Marcelo Barreiro, Romina Trinchin, Camila de Mello, Remi Laxenaire and Alberto R. Piola
+
+Oceanographic dataset of CTD, TSG and ADCP campaign in Uruguay during April-May 2016 (see the paper)
+
+About the data: (Time is always in matlab datenum format)
+
+CTD_Manta_etal_2022.mat contains the 82 CTD profiles
+
+# name 0 = prDM: Pressure, Digiquartz [db]
+# name 1 = depSM: Depth [salt water, m]
+# name 2 = t090C: Temperature [ITS-90, deg C]
+# name 3 = sal00: Salinity, Practical [PSU]
+# name 4 = t190C: Temperature, 2 [ITS-90, deg C]
+# name 5 = sal11: Salinity, Practical, 2 [PSU]
+# name 6 = flECO-AFL: Fluorescence, WET Labs ECO-AFL/FL [mg/m^3]
+# name 7 = sbeox0Mg/L: Oxygen, SBE 43 [mg/l]
+
+TSG_Manta_etal_2022.mat is the TSG  data with a 10 minute centered moving averaged and a very coarse calibration of the fluorometer (see the paper)
+
+ADCP_Manta_etal_2022.mat are u and v velocities from the hull munted adcp, matrices of depth (50)xtime(18500) processed with cascade and tide corrected. See the 
+
+Water_samples_Manta_etal_2022.mat contains nutrients. Also, chlorophyll-a at 5m depth. 
+
+You can find more details about the data in the paper and also here http://data.utm.csic.es/geonetwork/srv/eng/catalog.search#/metadata/urn:SDN:CSR:LOCAL:29SG20160408 
